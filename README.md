@@ -17,5 +17,7 @@ Metacello new
 ## Use
 
 Inspect the file reference of an SQLite database file:
+
 ![sqlite-browser](https://user-images.githubusercontent.com/94934/167132670-11618051-327a-494e-a183-9d1f7c07c42a.png)
 
+(The database shown here is the sample database from [this SQLite Tutorial](https://www.sqlitetutorial.net/).)
