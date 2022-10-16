@@ -4,7 +4,7 @@ Extension { #name : #AbstractFileReference }
 AbstractFileReference >> gtSqlTablesFor: aView [
 	<gtView>
 	(self isFile
-		and: [ self extension = 'db'
+		and: [ (#('db' 'sqlite') includes: self extension)
 				and: [ (self readStreamDo: [ :s | s next: 16 ])
 						= ('SQLite format 3',
 							Character null asString) ] ])
